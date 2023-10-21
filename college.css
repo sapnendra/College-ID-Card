@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 500px;
+    width: 1150px;
+    height: 1700px;
+    box-shadow: 1px 2px 50px rgb(212, 208, 208);
+    border-radius: 20px;
+}
+.nav_card {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(188, 25, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.college_name {
+    margin-left: 80px;
+    margin-right: 20px;
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+/* main-content */
+
+.content {
+    width: 100%;
+    height: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 4.3rem;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+}
+
+.image p {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 25, 0);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.copyright {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+}
